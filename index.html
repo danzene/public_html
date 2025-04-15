@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DermaPet</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16952976775">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16952976775');
+</script>
+<!-- Event snippet for Reservar horário conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-16952976775/Y775CM7p9bAaEIfL55M_'});
+</script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="imgs/LOGO.png" alt="Mel Pet" class="logoBarra" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">DermaPet</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item" data-bs-dismiss="offcanvas">
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+            </li>
+            <li data-bs-dismiss="offcanvas" class="nav-item">
+              <a class="nav-link" href="#agenda">Serviços</a>
+            </li>
+            <li data-bs-dismiss="offcanvas" class="nav-item">
+              <a class="nav-link" href="#informacoes">Informações</a>
+            </li>
+
+            <a href="https://api.whatsapp.com/send/?phone=19993599065&text&type=phone_number&app_absent=0"
+              target="_blank" class="btn-inicio">AGENDE AGORA</a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+    <!-- inicio poup up -->
+    <div id="popup-overlay" class="CardPai">
+      <div class="card">
+        <div class="image"><img src="imgs/gato cachorro.png" alt="gato cachorro"></div>
+        <div class="content">
+          <span class="title">Seu Pet Merece o Melhor Cuidado!</span>
+          <p class="desc">Olá! Aqui na DermaPet, estamos prontos para oferecer o cuidado e atenção que seu animalzinho merece. Se você tem alguma dúvida ou precisa de ajuda, nossa equipe de veterinários está à disposição para te ajudar. Vamos conversar?</p>
+          <!-- "botão" -->
+           <a href="https://api.whatsapp.com/send/?phone=19993599065&text&type=phone_number&app_absent=0" target="_blank" style="text-decoration: none;" >
+          <button class="Btn" >
+            <div class="sign">
+              <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+                ></path>
+              </svg>
+            </div>
+          
+            <div class="text">Whatsapp</div>
+          </button>
+        </a>
+          <div id="popup-close" class="popup-close">&times;</div> 
+        </div>
+      </div>
+    </div>
+    
+    <!-- FIM Poup up -->
+  <header>
+    <div class="slide-info swiper" id="inicio">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <picture>
+            <source srcset="imgs/mobile-fullbanner3.jpg" alt="Banner"  media="(max-width: 991px)" />
+            <img src="imgs/fullbanner3.jpg" alt="" />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source srcset="imgs/mobile-fullbanner2.jpg" alt="Banner" media="(max-width: 991px)" />
+            <img src="imgs/fullbanner2.jpg" alt="" />
+          </picture>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source srcset="imgs/mobile-fullbanner.jpg" alt="Banner" media="(max-width: 991px)" />
+            <img src="imgs/fullbanner.jpg" alt="" />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Barra de anúncios veterinários -->
+  <div class="anuncio-container p-2">
+    <div class="anuncio-wrapper">
+      <div class="anuncio-slider">
+        <div class="anuncio">
+          Pacotes de banho e tosa com condições especiais 🛁🐶
+        </div>
+        <div class="anuncio">
+          Especialidades em todas as áreas médicas 🩺🐾
+        </div>
+        <div class="anuncio">
+          Exames laboratoriais, raio-x e ultrassom 🔬📸
+        </div>
+        <div class="anuncio">
+          Cirurgias de pequeno a grande porte 🐕
+        </div>
+        <div class="anuncio">
+          Internação diurna e recuperação anestésica 🏥🌞
+        </div>
+        <div class="anuncio">
+          Medicina preventiva com vacinação e check-up anual 💉❤️
+        </div>
+        <div class="anuncio">
+          Microchipagem, sorologia e atestado para viagens internacionais 📍✈️
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- Sessao baixo main cards -->
+
+    <div class="row m-0 p-0">
+      <div class="col-img left col-12 col-lg-6">
+        <img src="imgs/cuidadoAnimal.jpg" alt="Cuidado animal" class="img-full" />
+      </div>
+      <div class="col-text right col-12 col-lg-6 bg-gray">
+        <div class="texto text-gray">
+          <h2>Cuidado Animal</h2>
+          <p>
+            Cuidamos do bem-estar do seu pet com dedicação e profissionalismo.
+            Desde check-ups preventivos até cirurgias, nosso objetivo
+            é manter seu companheiro saudável e feliz em todas as fases da
+            vida.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row m-0 p-0">
+      <div class="col-text right col-12 col-lg-6 bg-gray">
+        <div class="texto text-gray">
+          <h2>Atendimento Veterinário Dedicado</h2>
+          <p>
+            Oferecemos atendimento veterinário, adaptado às necessidades
+            específicas de cada animal. Nosso time de profissionais está
+            comprometido em fornecer cuidados de alta qualidade, garantindo
+            que seu pet receba a atenção e o carinho que merece.
+          </p>
+        </div>
+      </div>
+      <div class="col-img left col-12 col-lg-6">
+        <img src="imgs/atendimento.jpg" alt="atendimento" class="img-full" />
+      </div>
+    </div>
+    <div class="row m-0 p-0">
+      <div class="col-img left col-12 col-lg-6">
+        <img src="imgs/segurancaBem.jpg" alt="Bem estar animal"class="img-full" />
+      </div>
+      <div class="col-text right col-12 col-lg-6 bg-gray">
+        <div class="texto text-gray">
+          <h2>Segurança e Bem-Estar</h2>
+          <p>
+            Sua tranquilidade é nossa prioridade. Nossas instalações são
+            equipadas com a mais alta tecnologia para garantir a segurança e o
+            conforto do seu pet durante todos os procedimentos. Confie em nós
+            para cuidar do que você mais ama.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Sessao de serviços -->
+    <section class="servico" id="agenda">
+      <div class="servicosPai px-3 py-5">
+        <div class="servicoFilho">
+          <a href="#consulta">
+            <img src="imgs/consulta.jpg" alt="consulta" />
+          </a>
+          <h2>Consultas</h2>
+        </div>
+        <div class="servicoFilho">
+          <a href="#tosa">
+            <img src="imgs/Tosa.jpg" alt="tosa" />
+          </a>
+          <h2>Banho e Tosa</h2>
+        </div>
+        <div class="servicoFilho">
+          <a href="#especialidades">
+            <img src="imgs/especialidades.jpeg" alt="Especialidades" />
+          </a>
+          <h2>Especialidades</h2>
+        </div>
+        <div class="servicoFilho">
+          <a href="#cirurgia">
+            <img src="imgs/cirurgia.jpg" alt="cirurgia" />
+          </a>
+          <h2>Cirurgias</h2>
+        </div>
+      </div>
+
+      <!-- Boxes que serão exibidas ao clicar -->
+      <div class="boxTexto" id="consulta">
+        <h2>Consultas</h2>
+        <div>
+          * Clínicos capacitados para atender melhor seu animal.
+          
+          * Atendimento por agendamento, ou recepção.
+          
+          * Realizamos vacinação, consulta clínica e Cirurgias.
+        </div>
+        <a href="#close">Fechar</a>
+      </div>
+
+      <div class="boxTexto" id="tosa">
+        <h2>Banho e Tosa</h2>
+        <div>
+          * Com profissionais capacitados para melhor atende-los.
+          
+          * Realizamos
+          hidratação no seu pet.
+          
+          * Agendamentos de segunda a sexta às 9h às 18h, ou aos sábados das 9h às 12h.
+        </div>
+        <a href="#close">Fechar</a>
+      </div>
+
+      <div class="boxTexto" id="especialidades">
+        <h2>Especialidades</h2>
+        <div>
+          - Cirurgias gerais e Especificas
+          - Ultrassom
+          - Radiografia
+          - Dermatologista
+          - Cardiologista
+          - Neurologista
+          - Ortopedista
+          - Oftalmologista
+          - Endocrinologista
+          - Odontologista
+          = Oncologista
+          - Medicina integrativa
+          - Gastroenterologista
+          - Ematologista
+          - Medicina Felina
+          - Pneumologista
+          - Nefrologista
+          - Nutrólogo
+        </div>
+        <a href="#close">Fechar</a>
+      </div>
+
+      <div class="boxTexto" id="cirurgia">
+        <h2>Cirurgias</h2>
+        <div>
+          * Internação basica com profissionais capacitados.
+          
+          * Em caso de emergência ligue. <a href="tel:19993599065" style="width: 100%;">(19) 99359-9065</a>
+        </div>
+        <a href="#close">Fechar</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray text-white py-5" id="informacoes">
+    <div class="container BarraTamanho">
+      <div class="row rodape">
+        <!-- Coluna 1: Entre em Contato -->
+        <div class="col-md-3 text-start gap-4 d-flex flex-column rodapeBaixo">
+          <h2 style="color: rgb(39, 38, 38)" class="text-center">
+            Entre em Contato
+          </h2>
+          <a class="d-flex align-items-center justify-content-start" 
+          href="https://maps.app.goo.gl/4BjeGSsT132n7YQaA" 
+          target="_blank" rel="noopener noreferrer">
+           <img src="imgs2/location-outline.svg" alt="Localização" style="width: 24px; margin-right: 8px" />
+           Endereço: R. Cap. Francisco de Paula, 251 - Cambuí, Campinas - SP, 13024-450
+       </a>
+       
+       <a class="d-flex align-items-center justify-content-start" href="tel:19993599065">
+           <img src="imgs2/call-outline.svg" alt="Telefone" style="width: 24px; margin-right: 8px" />
+           Telefone: (19) 99359-9065
+       </a>
+       
+       <a class="d-flex align-items-center justify-content-start" 
+          href="https://api.whatsapp.com/send/?phone=19993599065&text&type=phone_number&app_absent=0" 
+          target="_blank" rel="noopener noreferrer">
+           <img src="imgs2/logo-whatsapp.svg" alt="WhatsApp" style="width: 24px; margin-right: 8px" />
+           WhatsApp: (19) 99359-9065
+       </a>
+        </div>
+
+        <!-- Coluna 2: Horários de Atendimento -->
+        <div class="col-md-3 text-center rodapeBaixo">
+          <h2 style="color: rgb(39, 38, 38)">Horários de Atendimento</h2>
+          <p class="d-flex align-items-center justify-content-center">
+            <img src="imgs2/time-outline.svg" alt="tempo" style="width: 24px; margin-right: 8px" />
+            Segunda a Sexta: 9:00 - 18:00
+          </p>
+
+          <p class="d-flex align-items-center justify-content-center mp-0">
+            <img src="imgs2/time-outline.svg" alt="tempo" style="width: 24px; margin-right: 8px" />
+            Sábado: 9:00 - 12:00
+          </p>
+        </div>
+
+        <!-- Coluna 3: Siga-nos -->
+        <div class="col-md-3 text-center rodapeBaixo">
+          <h2 style="color: rgb(39, 38, 38)">Siga-nos</h2>
+          <a href="https://www.instagram.com/dermapet.campinas/"><i class="fab fa-instagram"></i>
+            <img src="imgs2/logo-instagram.svg" alt="Facebook" style="width: 40px; margin-top: 15px" /></a><br />
+        </div>
+
+        <!-- Coluna 4: Mapa -->
+        <div class="mapa col-md-3 text-center d-flex flex-column align-items-center">
+          <h2 style="color: rgb(39, 38, 38)">Nosso Local</h2>
+          <a href="https://www.google.com/maps/place/DermaPet+Cl%C3%ADnica+Veterin%C3%A1ria/@-22.8901852,-47.0483131,17z" 
+             target="_blank" rel="noopener noreferrer">
+              <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.6283035773054!2d-47.048313099999994!3d-22.890185199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8cf554302aa83%3A0x9643b402703cd33b!2sDermaPet%20Cl%C3%ADnica%20Veterin%C3%A1ria!5e0!3m2!1spt-BR!2sbr!4v1740592811975!5m2!1spt-BR!2sbr" 
+                  style="border: 0; width: 100%; height: 100%" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+          </a>
+      </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
